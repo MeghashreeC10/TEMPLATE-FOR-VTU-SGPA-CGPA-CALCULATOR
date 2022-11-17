@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>PROJECT</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+            body{
+                background-image: url("image.jpg");
+                background-size: cover;
+            }
+         </style>
+    </head>
+    <body>
+        <div id="choose"style="display: none;">2</div>
+        <a href="vtu3.html">
+        <button class="back-button">BACK</button>
+        <div class="main3"><h1>1st & 2nd  SEMESTER C-CYCLE</h1></div>
+        </a>
+        <input type="text" class="input" id="input1"  placeholder="21MAT11/21">   
+        <input type="text" class="input" id="input2"  placeholder="21CHE12/22"><br>
+        <input type="text" class="input" id="input3"  placeholder="21PSP13/23">
+        <input type="text" class="input" id="input4"  placeholder="21ELN14/24"><br>
+        <input type="text" class="input" id="input5"  placeholder="21ME15/25">
+        <input type="text" class="input" id="input6"  placeholder="21CHEL16/26"><br>
+        <input type="text" class="input" id="input7"  placeholder="21CPL17/27">
+        <input type="text" class="input" id="input8"  placeholder="21EGH18/28(ENGLISH)"><br>
+        <div>
+            <div class="cgpa_output">
+                <button  class="submit" id="btn_re" onclick="calc_sgpa()">
+                  CALCULATE SGPA
+                </button>
+                <button  class="submit" id="btn_re" onclick="reset_sgpa()">
+                    RESET
+                </button>
+            <div id="RESULTS">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
